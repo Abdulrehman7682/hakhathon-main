@@ -1,0 +1,91 @@
+// @import "./scss/bootstrap";
+// #root{
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 100vh;
+//   background: linear-gradient(-135deg, #c850c0, #4158d0);
+// }
+// .card{
+// max-width:500px ;
+// margin: auto;
+// box-shadow: 5px 5px 10px lavenderblush;
+// }
+// button{
+//   width: 90%;
+// }
+// main{
+//   flex: 1 0 auto;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+// .icon{
+//   position: relative;
+// }
+// .iconimg{
+//   position: absolute;
+//   right: 10px;
+//   margin-top: -65px;
+// }
+// #root{
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 100vh;
+// }
+// // main{
+// //   flex:  1 0 auto;
+// // }
+// #button{
+//   text-align: center;
+//   width: 20%;
+// }
+
+
+@import "./scss/bootstrap";
+
+// Root container for the app
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  // background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+// Card style for the event cards or other content
+.card {
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px lavenderblush;
+}
+
+// Button style with width adjustment
+button {
+  width: 90%;
+}
+
+// Main section that contains the page's content
+main {
+  flex: 1 0 auto; // Ensures that main takes up available space but doesn't stretch
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; // Added padding to prevent items from sticking to edges
+  box-sizing: border-box; // Ensures padding is considered in the layout
+}
+
+// Icon container for images/icons
+.icon {
+  position: relative;
+}
+
+.iconimg {
+  position: absolute;
+  right: 10px;
+  margin-top: -65px;
+}
+
+// Button container alignment (if you want a button in a specific section)
+#button {
+  text-align: center;
+  width: 20%;
+}
